@@ -1,0 +1,10 @@
+#default["mmc"]["path"] = File.join("/tmp", "keystore.jks")
+default["mmc"]["alias"] = "tomcat"
+default["mmc"]["keypass"] = "levi123"
+default["mmc"]["storepass"] = "levi123"
+default["mmc"]["CN"] = "Levi"
+default["mmc"]["OU"] = "Levi"
+default["mmc"]["O"] = "Levi co Inc."
+default["mmc"]["L"] = "SanFransisco"
+default["mmc"]["ST"] = "CA"
+default["mmc"]["C"] = "US"
